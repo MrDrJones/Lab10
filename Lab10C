@@ -1,0 +1,73 @@
+/*
+Lab10C
+Section 16
+Indiana Jones
+*/
+
+#include <iostream>
+using namespace std;
+int main()
+{
+string foll;
+
+cout << "Enter a string: " << endl;
+getline(cin,foll);
+
+for (int i = 0; i < foll.length(); i++){ 
+switch(foll.at(i)){
+case('a'): foll.at(i) = 'n';
+break;
+case('b'): foll.at(i) = 'o';
+break;
+case('c'): foll.at(i) = 'p';
+break;
+case('d'): foll.at(i) = 'q';
+break;
+case('e'): foll.at(i) = 'r';
+break;
+case('f'): foll.at(i) = 's';
+break;
+case('g'): foll.at(i) = 't';
+break;
+case('h'): foll.at(i) = 'u';
+break;
+case('i'): foll.at(i) = 'v';
+break;
+case('j'): foll.at(i) = 'w';
+break;
+case('k'): foll.at(i) = 'x';
+break;
+case('l'): foll.at(i) = 'y';
+break;
+case('m'): foll.at(i) = 'z';
+break;
+case('n'): foll.at(i) = 'a';
+break;
+case('o'): foll.at(i) = 'b';
+break;
+case('p'): foll.at(i) = 'c';
+break;
+case('q'): foll.at(i) = 'd';
+break;
+case('r'): foll.at(i) = 'e';
+break;
+case('s'): foll.at(i) = 'f';
+break;
+case('t'): foll.at(i) = 'g';
+break;
+case('u'): foll.at(i) = 'h';
+break;
+case('v'): foll.at(i) = 'i';
+break;
+case('w'): foll.at(i) = 'j';
+break;
+case('x'): foll.at(i) = 'k';
+break;
+case('y'): foll.at(i) = 'l';
+break;
+case('z'): foll.at(i) = 'm';
+break;
+}
+}
+cout << foll;
+}
