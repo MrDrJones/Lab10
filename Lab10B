@@ -1,0 +1,24 @@
+/*
+Lab10B
+Section 16
+Indiana Jones
+*/
+
+#include <iostream>
+using namespace std;
+int main()
+{
+string foll;
+
+cout << "Enter a string: " << endl;
+getline(cin,foll);
+
+for (int i = 0; i < foll.length(); i++){ 
+if(foll.find("dang") == i){
+  foll.replace(i,4,"&^#@");
+  cout << "Found bad word at: " << i << endl;
+}
+
+}
+cout << foll;
+}
